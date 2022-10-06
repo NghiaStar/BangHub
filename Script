@@ -4651,4 +4651,120 @@ local CREDITS = s:Tab("CREDITS")
 CREDITS:Label("Credits to Bang Scripts | discord.gg/G75THAS")
 
 
+--Jailbreak
+elseif game.PlaceId == 606849621 then
+   
+   local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
+
+
+local s = VLib:Window("BANG HUB", "JAILBREAK", "B")
+
+local LOCAL_PLAYER = s:Tab("LOCAL PLAYER")
+
+LOCAL_PLAYER:Label("LOCAL")
+
+LOCAL_PLAYER:Slider("Walkspeed",16,300,16,function(t)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = t
+    end)
+
+LOCAL_PLAYER:Slider("Jumppower",50,250,50,function(t)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = t
+    end)
+
+LOCAL_PLAYER:Label("LOCAL PLAYER GUI")
+
+LOCAL_PLAYER:Button("Infinite Yield",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+local SCRIPTS = s:Tab("SCRIPTS GUI")
+
+SCRIPTS:Label("JAILBREAK SCRIPTS")
+
+SCRIPTS:Button("Vynixius GUI",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+end)
+
+SCRIPTS:Button("Ice Tray V3 Gui",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/master/jailboy"))()
+end)
+
+SCRIPTS:Button("Monkey Hub",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/JailMonkey.lua"))() 
+end)
+
+SCRIPTS:Button("Diamond Hub",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/JailBreak"))()
+end)
+
+SCRIPTS:Button("Subs Hub",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/BYjkAANj"))()
+end)
+
+SCRIPTS:Button("Blue Hub",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ahTe2UsE"))()
+end)
+
+local GAMES_SUPPORTED = s:Tab("SUPPORTED GAMES")
+
+GAMES_SUPPORTED:Label("Blox Fruits")
+
+GAMES_SUPPORTED:Label("Anime Fighters Simulator")
+
+GAMES_SUPPORTED:Label("A 0ne Piece Game")
+
+GAMES_SUPPORTED:Label("Pet Simulator X")
+
+GAMES_SUPPORTED:Label("Sonic Speed Simulator")
+
+GAMES_SUPPORTED:Label("Demonfall")
+
+GAMES_SUPPORTED:Label("Stand Upright: Rebooted")
+
+GAMES_SUPPORTED:Label("Shindo Life")
+
+GAMES_SUPPORTED:Label("Clicker Simulator")
+
+GAMES_SUPPORTED:Label("Funky Friday")
+
+GAMES_SUPPORTED:Label("Combat Warriors")
+
+GAMES_SUPPORTED:Label("Goal Kick Simulator")
+
+GAMES_SUPPORTED:Label("Your Bizarre Adventure")
+
+GAMES_SUPPORTED:Label("Da Hood")
+
+GAMES_SUPPORTED:Label("APEIROPHOBIA")
+
+GAMES_SUPPORTED:Label("Mining Simulator 2")
+
+GAMES_SUPPORTED:Label("SharkBite")
+
+GAMES_SUPPORTED:Label("Build A Boat")
+
+GAMES_SUPPORTED:Label("Arsenal")
+
+GAMES_SUPPORTED:Label("Race Clicker")
+
+GAMES_SUPPORTED:Label("Breaking Point")
+
+GAMES_SUPPORTED:Label("A Universal Time")
+
+GAMES_SUPPORTED:Label("ZO ぞ")
+
+GAMES_SUPPORTED:Label("Phantom Forces")
+
+GAMES_SUPPORTED:Label("Evade")
+
+GAMES_SUPPORTED:Label("Doors")
+
+GAMES_SUPPORTED:Label("Grand Piece Online")
+
+GAMES_SUPPORTED:Label("Shadovis RPG")
+
+local CREDITS = s:Tab("CREDITS")
+
+CREDITS:Label("Credits to Bang Scripts | discord.gg/G75THAS")
+
 end
