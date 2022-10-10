@@ -7,7 +7,7 @@ if game.PlaceId == 155615604 then
 local s = VLib:Window("BANG HUB", "PRISON LIFE", "B")
 
 local LOCAL_PLAYER = s:Tab("LOCAL PLAYER")
-
+,
 LOCAL_PLAYER:Label("LOCAL")
 
 LOCAL_PLAYER:Slider("Walkspeed",16,300,16,function(t)
@@ -2900,7 +2900,7 @@ local SCRIPTS = s:Tab("SCRIPTS GUI")
 SCRIPTS:Label("MINING SIMULATOR 2 SCRIPTS")
 
 SCRIPTS:Button("Zeerox Gui",function()
-loadstring(game:HttpGet'https://github.com/RunDTM/miningsim2/raw/main/script.lua')()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/miningsim2/main/rewrite.lua')()
 end)
 
 SCRIPTS:Button("Soogyware Gui",function()
@@ -2937,6 +2937,26 @@ end)
 
 SCRIPTS:Button("Saza Software Gui",function()
 loadstring(game:HttpGet"https://raw.githubusercontent.com/QwertyzSZ/SazaSoftware/main/ScriptLoader.saza")()
+end)
+
+SCRIPTS:Button("Beluse Hub Gui",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/beliveri12/BeluseHub/main/Loader.lua', true))()
+end)
+
+SCRIPTS:Button("Project Lightning Gui",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ProjectLightningDev/Project-Lightning-Loader/main/Loader.Lua"))()
+end)
+
+SCRIPTS:Button("Vestra Hub Gui",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xandudiscord/vestra/main/loader.lua"))()
+end)
+
+SCRIPTS:Button("Versus Airlines Hub Gui",function()
+loadstring(game:HttpGet("https://gitlab.com/Ner0ox/versus/-/raw/main/LoaderV2/Loader.lua"))()
+end)
+
+SCRIPTS:Button("Halloween Candy Farm Gui",function()
+loadstring(game:HttpGet("https://soggy-ware.cf"))()
 end)
 
 local GAMES_SUPPORTED = s:Tab("SUPPORTED GAMES")
