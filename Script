@@ -1300,8 +1300,16 @@ SCRIPTS:Button("TR1V5 Gui",function()
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TR1V5/TR1V5-Software-V4/main/Main"))()
 end)
 
-SCRIPTS:Button("TR1V5 Hardcore Gui",function()
-loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TR1V5/TR1V5-Software-V4/main/Games/Pet%20Simulator%20X"))()
+SCRIPTS:Button("Project WD Gui",function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/JSPXfySR"))()
+end)
+
+SCRIPTS:Button("Jmes Gui",function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+end)
+
+SCRIPTS:Button("Zeerox Gui",function()
+loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
 end)
 
 local GAMES_SUPPORTED = s:Tab("SUPPORTED GAMES")
@@ -4786,5 +4794,329 @@ GAMES_SUPPORTED:Label("Shadovis RPG")
 local CREDITS = s:Tab("CREDITS")
 
 CREDITS:Label("Credits to Bang Scripts | discord.gg/G75THAS")
+
+
+--Booga Booga
+elseif game.PlaceId == 606849621 then
+   
+   local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
+
+
+local s = VLib:Window("BANG HUB", "BOOGA BOOGA", "B")
+
+local LOCAL_PLAYER = s:Tab("LOCAL PLAYER")
+
+LOCAL_PLAYER:Label("LOCAL")
+
+LOCAL_PLAYER:Slider("Walkspeed",16,300,16,function(t)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = t
+    end)
+
+LOCAL_PLAYER:Slider("Jumppower",50,250,50,function(t)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = t
+    end)
+
+LOCAL_PLAYER:Label("LOCAL PLAYER GUI")
+
+LOCAL_PLAYER:Button("Infinite Yield",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+local SCRIPTS = s:Tab("SCRIPTS GUI")
+
+SCRIPTS:Label("BOOGA BOOGA SCRIPTS")
+
+SCRIPTS:Button("Flushed Gui",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseOnGithub/scripts/main/bb2019.lua",true))()
+end)
+
+SCRIPTS:Button("OnionScript HUB",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/MGDBXaS7',true))()
+end)
+
+SCRIPTS:Button("Water-Walk GUI",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/booga-booga12/main/waterwalk"))()
+end)
+
+local GAMES_SUPPORTED = s:Tab("SUPPORTED GAMES")
+
+GAMES_SUPPORTED:Label("Blox Fruits")
+
+GAMES_SUPPORTED:Label("Anime Fighters Simulator")
+
+GAMES_SUPPORTED:Label("A 0ne Piece Game")
+
+GAMES_SUPPORTED:Label("Pet Simulator X")
+
+GAMES_SUPPORTED:Label("Sonic Speed Simulator")
+
+GAMES_SUPPORTED:Label("Demonfall")
+
+GAMES_SUPPORTED:Label("Stand Upright: Rebooted")
+
+GAMES_SUPPORTED:Label("Shindo Life")
+
+GAMES_SUPPORTED:Label("Clicker Simulator")
+
+GAMES_SUPPORTED:Label("Funky Friday")
+
+GAMES_SUPPORTED:Label("Combat Warriors")
+
+GAMES_SUPPORTED:Label("Goal Kick Simulator")
+
+GAMES_SUPPORTED:Label("Your Bizarre Adventure")
+
+GAMES_SUPPORTED:Label("Da Hood")
+
+GAMES_SUPPORTED:Label("APEIROPHOBIA")
+
+GAMES_SUPPORTED:Label("Mining Simulator 2")
+
+GAMES_SUPPORTED:Label("SharkBite")
+
+GAMES_SUPPORTED:Label("Build A Boat")
+
+GAMES_SUPPORTED:Label("Arsenal")
+
+GAMES_SUPPORTED:Label("Race Clicker")
+
+GAMES_SUPPORTED:Label("Breaking Point")
+
+GAMES_SUPPORTED:Label("A Universal Time")
+
+GAMES_SUPPORTED:Label("ZO ぞ")
+
+GAMES_SUPPORTED:Label("Phantom Forces")
+
+GAMES_SUPPORTED:Label("Evade")
+
+GAMES_SUPPORTED:Label("Doors")
+
+GAMES_SUPPORTED:Label("Grand Piece Online")
+
+GAMES_SUPPORTED:Label("Shadovis RPG")
+
+local CREDITS = s:Tab("CREDITS")
+
+CREDITS:Label("Credits to Bang Scripts | discord.gg/G75THAS")
+
+
+--KAT
+elseif game.PlaceId == 621129760 then
+   
+   local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
+
+
+local s = VLib:Window("BANG HUB", "KAT", "B")
+
+local LOCAL_PLAYER = s:Tab("LOCAL PLAYER")
+
+LOCAL_PLAYER:Label("LOCAL")
+
+LOCAL_PLAYER:Slider("Walkspeed",16,300,16,function(t)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = t
+    end)
+
+LOCAL_PLAYER:Slider("Jumppower",50,250,50,function(t)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = t
+    end)
+
+LOCAL_PLAYER:Label("LOCAL PLAYER GUI")
+
+LOCAL_PLAYER:Button("Infinite Yield",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+local SCRIPTS = s:Tab("SCRIPTS GUI")
+
+SCRIPTS:Label("KAT SCRIPTS")
+
+SCRIPTS:Button("King Hub V2 Gui",function()
+loadstring(game:HttpGet("https://pastebin.com/j77Uym5C",true))()
+end)
+
+SCRIPTS:Button("Lime Hub + Cattori",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/lxnnydev/PublicScripts/main/limexkat.lua'),true))()
+end)
+
+SCRIPTS:Button("DG Hub GUI",function()
+loadstring(game:HttpGet("https://pastebin.com/u4ZgTrJK"))()
+end)
+
+SCRIPTS:Button("Unfair Hub GUI",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+end)
+
+local GAMES_SUPPORTED = s:Tab("SUPPORTED GAMES")
+
+GAMES_SUPPORTED:Label("Blox Fruits")
+
+GAMES_SUPPORTED:Label("Anime Fighters Simulator")
+
+GAMES_SUPPORTED:Label("A 0ne Piece Game")
+
+GAMES_SUPPORTED:Label("Pet Simulator X")
+
+GAMES_SUPPORTED:Label("Sonic Speed Simulator")
+
+GAMES_SUPPORTED:Label("Demonfall")
+
+GAMES_SUPPORTED:Label("Stand Upright: Rebooted")
+
+GAMES_SUPPORTED:Label("Shindo Life")
+
+GAMES_SUPPORTED:Label("Clicker Simulator")
+
+GAMES_SUPPORTED:Label("Funky Friday")
+
+GAMES_SUPPORTED:Label("Combat Warriors")
+
+GAMES_SUPPORTED:Label("Goal Kick Simulator")
+
+GAMES_SUPPORTED:Label("Your Bizarre Adventure")
+
+GAMES_SUPPORTED:Label("Da Hood")
+
+GAMES_SUPPORTED:Label("APEIROPHOBIA")
+
+GAMES_SUPPORTED:Label("Mining Simulator 2")
+
+GAMES_SUPPORTED:Label("SharkBite")
+
+GAMES_SUPPORTED:Label("Build A Boat")
+
+GAMES_SUPPORTED:Label("Arsenal")
+
+GAMES_SUPPORTED:Label("Race Clicker")
+
+GAMES_SUPPORTED:Label("Breaking Point")
+
+GAMES_SUPPORTED:Label("A Universal Time")
+
+GAMES_SUPPORTED:Label("ZO ぞ")
+
+GAMES_SUPPORTED:Label("Phantom Forces")
+
+GAMES_SUPPORTED:Label("Evade")
+
+GAMES_SUPPORTED:Label("Doors")
+
+GAMES_SUPPORTED:Label("Grand Piece Online")
+
+GAMES_SUPPORTED:Label("Shadovis RPG")
+
+local CREDITS = s:Tab("CREDITS")
+
+CREDITS:Label("Credits to Bang Scripts | discord.gg/G75THAS")
+
+
+--Flee The Facility
+elseif game.PlaceId == 893973440 then
+   
+   local VLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/vep1032/VepStuff/main/VL"))()
+
+
+local s = VLib:Window("BANG HUB", "FLEE THE FACILITY", "B")
+
+local LOCAL_PLAYER = s:Tab("LOCAL PLAYER")
+
+LOCAL_PLAYER:Label("LOCAL")
+
+LOCAL_PLAYER:Slider("Walkspeed",16,300,16,function(t)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = t
+    end)
+
+LOCAL_PLAYER:Slider("Jumppower",50,250,50,function(t)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = t
+    end)
+
+LOCAL_PLAYER:Label("LOCAL PLAYER GUI")
+
+LOCAL_PLAYER:Button("Infinite Yield",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+local SCRIPTS = s:Tab("SCRIPTS GUI")
+
+SCRIPTS:Label("FLEE THE FACILITY SCRIPTS")
+
+SCRIPTS:Button("TheScriptBoi Gui",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/khoaScript/scripts/master/flee-the-facility.lua"))()
+end)
+
+SCRIPTS:Button("V.G Hub",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+SCRIPTS:Button("Arctic Hub GUI",function()
+loadstring(game:HttpGet("https://paste.ee/r/Q2ekT/0"))()
+end)
+
+SCRIPTS:Button("Fleeware v4 GUI",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Drifty96/ftfgui/main/ftfgui", true))()
+end)
+
+local GAMES_SUPPORTED = s:Tab("SUPPORTED GAMES")
+
+GAMES_SUPPORTED:Label("Blox Fruits")
+
+GAMES_SUPPORTED:Label("Anime Fighters Simulator")
+
+GAMES_SUPPORTED:Label("A 0ne Piece Game")
+
+GAMES_SUPPORTED:Label("Pet Simulator X")
+
+GAMES_SUPPORTED:Label("Sonic Speed Simulator")
+
+GAMES_SUPPORTED:Label("Demonfall")
+
+GAMES_SUPPORTED:Label("Stand Upright: Rebooted")
+
+GAMES_SUPPORTED:Label("Shindo Life")
+
+GAMES_SUPPORTED:Label("Clicker Simulator")
+
+GAMES_SUPPORTED:Label("Funky Friday")
+
+GAMES_SUPPORTED:Label("Combat Warriors")
+
+GAMES_SUPPORTED:Label("Goal Kick Simulator")
+
+GAMES_SUPPORTED:Label("Your Bizarre Adventure")
+
+GAMES_SUPPORTED:Label("Da Hood")
+
+GAMES_SUPPORTED:Label("APEIROPHOBIA")
+
+GAMES_SUPPORTED:Label("Mining Simulator 2")
+
+GAMES_SUPPORTED:Label("SharkBite")
+
+GAMES_SUPPORTED:Label("Build A Boat")
+
+GAMES_SUPPORTED:Label("Arsenal")
+
+GAMES_SUPPORTED:Label("Race Clicker")
+
+GAMES_SUPPORTED:Label("Breaking Point")
+
+GAMES_SUPPORTED:Label("A Universal Time")
+
+GAMES_SUPPORTED:Label("ZO ぞ")
+
+GAMES_SUPPORTED:Label("Phantom Forces")
+
+GAMES_SUPPORTED:Label("Evade")
+
+GAMES_SUPPORTED:Label("Doors")
+
+GAMES_SUPPORTED:Label("Grand Piece Online")
+
+GAMES_SUPPORTED:Label("Shadovis RPG")
+
+local CREDITS = s:Tab("CREDITS")
+
+CREDITS:Label("Credits to Bang Scripts | discord.gg/G75THAS")
+
 
 end
