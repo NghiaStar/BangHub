@@ -4500,11 +4500,23 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/
 end)
 
 SCRIPTS:Button("Blox Hub GUI",function()
-loadstring(game:HttpGetAsync("https://pastebin.com/raw/YL9dAt8E"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/BloxHubFixed/main/MainCode2"))()
 end)
 
 SCRIPTS:Button("Eclipse Hub GUI",function()
 loadstring(game:HttpGetAsync("https://pastebin.com/raw/fS1wk8Wr"))()
+end)
+
+SCRIPTS:Button("Shnigel Utils GUI",function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/JusticeValley/shnigelutils/main/mainLoader.lua'),true))()
+end)
+
+SCRIPTS:Button("Ice Hub GUI",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+SCRIPTS:Button("Make All Pets Mega Neon Flying Rideable",function()
+loadstring(game:HttpGet("https://pastebin.com/raw/eC36GhKZ"))()
 end)
 
 local GAMES_SUPPORTED = s:Tab("SUPPORTED GAMES")
